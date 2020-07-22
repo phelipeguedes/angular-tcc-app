@@ -1,0 +1,30 @@
+<mat-card>
+    <mat-card-title>Novo Aluno(a)</mat-card-title>
+
+    <form action="">
+        <mat-form-field>
+            <input matInput [(ngModel)]="aluno.nome" name="nome" placeholder="Nome do aluno(a)">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput [(ngModel)]="aluno.matricula" name="matricula" placeholder="Matrícula do aluno(a)">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput [(ngModel)]="aluno.curso" name="curso" placeholder="Curso do aluno(a)">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput [(ngModel)]="aluno.email" name="email" placeholder="Email do aluno(a)">
+        </mat-form-field>
+    </form>
+
+</mat-card>
+
+<button mat-raised-button (click)="addAluno()" color="primary">
+    Salvar
+</button>
+
+<button mat-raised-button (click)="cancel()" color="warning">
+    Cancelar
+</button>

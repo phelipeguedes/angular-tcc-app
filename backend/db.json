@@ -1,0 +1,39 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Phelipe Guedes",
+      "matricula": 3114104,
+      "curso": "Sistemas de Informação",
+      "email": "phelipe.guedes@hotmail.com"
+    },
+    {
+      "nome": "Carla Silveira",
+      "email": "carla_silveira91@outlook.com",
+      "matricula": "3215607",
+      "curso": "Ciências Contábeis",
+      "id": 2
+    },
+    {
+      "nome": "Mariana Sales",
+      "email": "mariana_sales@gmail.com",
+      "matricula": "30445690",
+      "curso": "Turismo",
+      "id": 3
+    },
+    {
+      "nome": "Alice Dantas",
+      "email": "alice.dantas89@gmail.com",
+      "matricula": "31234674",
+      "curso": "Economia",
+      "id": 4
+    },
+    {
+      "nome": "Alex Gonçalves",
+      "email": "alex.goncalves99@contato.com",
+      "matricula": "30467790",
+      "curso": "Direito",
+      "id": 5
+    }
+  ]
+}

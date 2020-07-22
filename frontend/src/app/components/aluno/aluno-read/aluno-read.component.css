@@ -1,0 +1,18 @@
+table {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+table th,
+td {
+    text-align: center;
+}
+
+a.edit {
+    color: #d9cd26;
+}
+
+a.delete {
+    color: #e35e6b;
+}
